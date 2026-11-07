@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background: #222222;
+  padding: 10px 20px;
+}
+
+.nav h1 {
+  color: white;
+  margin: 0;
+  margin-right: auto;
+}
+
+.nav a {
+  color: white;
+}

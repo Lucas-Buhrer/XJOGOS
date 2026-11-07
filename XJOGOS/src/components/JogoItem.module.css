@@ -1,0 +1,8 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 10px;
+  margin-bottom: 8px;
+  list-style: none;
+}

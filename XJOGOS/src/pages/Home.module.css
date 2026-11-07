@@ -1,0 +1,15 @@
+.main {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 0 10px;
+}
+
+.busca {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.lista {
+  padding: 0;
+}
