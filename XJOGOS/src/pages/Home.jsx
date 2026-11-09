@@ -85,7 +85,7 @@ function Home() {
         setGenero={setGenero}
         erro={erro}
         editando={editandoId}
-        aoEnviar={enviar}
+        onEnviar={enviar}
       />
 
       {/* busca: filtra enquanto digita */}
@@ -105,8 +105,8 @@ function Home() {
             <JogoItem
               key={jogo.id}
               jogo={jogo}
-              aoEditar={editar}
-              aoRemover={remover}
+              onEditar={editar}
+              onRemover={remover}
             />
           ))
         )}

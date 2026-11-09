@@ -13,6 +13,9 @@ function JogoForm(props) {
         value={props.genero}
         onChange={(e) => props.setGenero(e.target.value)}
       />
+
+      {props.erro && <p>{props.erro}</p>}
+      
       <button type="submit">{props.editando ? "Salvar" : "Adicionar"}</button>
     </form>
   );
