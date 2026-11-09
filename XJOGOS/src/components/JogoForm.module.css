@@ -4,3 +4,15 @@
   gap: 8px;
   margin-bottom: 20px;
 }
+
+form input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+form button {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
